@@ -39,7 +39,7 @@ FastAI conveniently combines the images with thier labels giving us more accurat
 
 ### Model
 
-We are going to be using a U-Net model, which is one of the most common architectures that are used for segmentation tasks. A U-Net architecture looks something like this: 
+I have used a U-Net model, which is one of the most common architectures that are used for segmentation tasks. A U-Net architecture looks something like this: 
 
 ![unet][unet]
 
@@ -47,10 +47,10 @@ We are going to be using a U-Net model, which is one of the most common architec
 
 More on this can be found [here](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
-Also, we're going to be using a pre-trained model called ResNet34 inside the U-Net architecture.
+The final accuracy I got was a **91.6%**. The following graph shows the training and validation loss:
 
+![loss][loss]
 
-
-
+[loss]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%202.26.11%20AM.png
 
 
