@@ -47,10 +47,30 @@ I have used a U-Net model, which is one of the most common architectures that ar
 
 More on this can be found [here](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
+
 The final accuracy I got was a **91.6%**. The following graph shows the training and validation loss:
 
 ![loss][loss]
 
 [loss]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%202.26.11%20AM.png
+
+### Predictions
+
+Some sample predictions are:
+
+![pred][pred]
+
+[pred]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%202.30.35%20AM.png
+
+The predictions are pretty close to the ground truth !
+
+---
+
+
+
+
+
+
+
 
 
