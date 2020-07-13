@@ -28,3 +28,19 @@ We also get a labelled dataset. The labelled counterpart of the above image is :
 ![label][l]
 
 [l]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.41.49%20AM.png
+
+After we prepare our data with the images and their labels, a sample batch of images look something like this:
+
+![data][lg]
+
+[lg]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.48.00%20AM.png
+
+FastAI conveniently combines the images with thier labels giving us more accurate images for our training process. Thus the above sample batch contains all the transformations, normalisations and other specifications provided.
+
+
+
+
+
+
+
+
