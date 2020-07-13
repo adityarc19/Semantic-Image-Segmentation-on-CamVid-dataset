@@ -5,20 +5,20 @@
 The Cambridge-driving Labeled Video Database (CamVid) is the first collection of videos with object class semantic labels, complete with metadata. The database provides ground truth labels that associate each pixel with one of 32 semantic classes.
 More on this dataset can be found on their official website [here](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/).
 
-I'm going to be using [fastai datasets](https://course.fast.ai/datasets) for importing the CamVid dataset to my notebook.
+I have used [fastai datasets](https://course.fast.ai/datasets) for importing the CamVid dataset to my notebook.
 
-We start by importing all the required packages for performing this semantic segmentation task. This includes the matplotlib package for data visualisation, and some fastai packages for performing the actual segmentation task.
-
-```
-# matplotlib 
-%reload_ext autoreload
-%autoreload 2
-%matplotlib inline
-```
+Required installation for this project:
 
 ```
-# fastai packages
-from fastai.vision import *
-from fastai.callbacks.hooks import *
-from fastai.utils.mem import *
+ pip install http://download.pytorch.org/whl/cpu/torch-1.0.0-cp36-cp36m-linux_x86_64.whl
+ pip install fastai
 ```
+More info on installation procedures can be found [here](https://docs.fast.ai/install.html).
+
+### How our data looks
+
+A sample image data:
+
+![sample image][logo]
+
+[logo]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.32.40%20AM.png
