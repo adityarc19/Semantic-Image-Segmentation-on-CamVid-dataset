@@ -29,15 +29,25 @@ We also get a labelled dataset. The labelled counterpart of the above image is :
 
 [l]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.41.49%20AM.png
 
-After we prepare our data with the images and their labels, a sample batch of images look something like this:
+After we prepare our data with the images and their labels, a sample batch of data looks something like this:
 
 ![data][lg]
 
 [lg]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.48.00%20AM.png
 
-FastAI conveniently combines the images with thier labels giving us more accurate images for our training process. Thus the above sample batch contains all the transformations, normalisations and other specifications provided.
+FastAI conveniently combines the images with thier labels giving us more accurate images for our training process. Thus the above sample batch contains all the transformations, normalisations and other specifications that are provided to the data.
 
+### Model
 
+We are going to be using a U-Net model, which is one of the most common architectures that are used for segmentation tasks. A U-Net architecture looks something like this: 
+
+![unet][unet]
+
+[unet]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%202.00.36%20AM.png
+
+More on this can be found [here](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
+
+Also, we're going to be using a pre-trained model called ResNet34 inside the U-Net architecture.
 
 
 
