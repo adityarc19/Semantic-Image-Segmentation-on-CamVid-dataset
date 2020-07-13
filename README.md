@@ -22,3 +22,9 @@ A sample image data:
 ![sample image][logo]
 
 [logo]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.32.40%20AM.png
+
+We also get a labelled dataset. The labelled counterpart of the above image is :
+
+![label][l]
+
+[l]: https://github.com/adityarc19/Semantic-Image-Segmentation-on-CamVid-dataset/blob/master/images/Screenshot%202020-07-14%20at%201.41.49%20AM.png
